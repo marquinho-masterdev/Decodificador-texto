@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto by marquinho-dev</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+</head>
+<body>
+    <header class="imagem">
+        <img src="./assets/imagem1.png" alt="logo da alura">
+    </header>
+    <main class="apresentacao">
+       <section class="conteudo_texto">
+            <textarea id="entrada_texto" class="entrada" type="text" placeholder="Digite seu texto"></textarea>
+        <section class="botao">
+            <div class="alerta">
+                <img src="./assets/imagem3.png" alt="Ponto de exclamacao">
+                <p class="messagem_alerta">Apenas letras minusculas e sem acento</p>
+            </div>
+            
+                <div class="botao_2">
+                    <button class="botao_2_1" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="botao_2_2"  onclick="btnDesencriptar()">Desencriptografar</button>
+                </div>
+            
+        </section>
+          
+    </section>  
+
+
+<div id="output" class="conteudo_messagem">
+    <img id="imagem_secao2" class="imagem_lupa" src="./assets/imagem2.png" alt="lupa" style="display: block;">
+    <h1 class="messagem_1">Nenhuma mensagem encontrada</h1>
+    <span class="messagem_2">Digite um texto que você deseja criptografar ou descriptografar </span>    
+</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
